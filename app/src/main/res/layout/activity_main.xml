@@ -8,11 +8,6 @@
         <import type="android.view.View"/>
 
         <variable name="handlers" type="com.legalimpurity.expandablerecyclerview.demo.Eventhandlers"/>
-
-        <variable
-            name="item"
-            type="com.legalimpurity.expandablerecyclerview.demo.objects.BaseItem"/>
-
     </data>
 
     <android.support.design.widget.CoordinatorLayout
