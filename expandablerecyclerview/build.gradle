@@ -1,5 +1,29 @@
 apply plugin: 'com.android.library'
 
+ext {
+    bintrayRepo = 'maven'
+    bintrayName = 'expandable-recyclerview'
+
+    publishedGroupId = 'com.legalimpurity.expandablerecyclerview'
+    libraryName = 'expandable-recyclerview'
+    artifact = 'expandable-recyclerview'
+
+    libraryDescription = 'It is a Recycler View which expands to show more Recycler views inside it.'
+
+    siteUrl = 'https://github.com/legalimpurity/ExpandableRecyclerView'
+    gitUrl = 'https://github.com/legalimpurity/ExpandableRecyclerView'
+
+    libraryVersion = '1.0'
+
+    developerId = 'legalimpurity'
+    developerName = 'Rajat Khanna'
+    developerEmail = 'legalimpurity@gmail.com'
+
+    licenseName = 'The Apache Software License, Version 2.0'
+    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+    allLicenses = ["Apache-2.0"]
+}
+
 android {
     compileSdkVersion 24
     buildToolsVersion "24.0.3"
@@ -33,3 +57,6 @@ dependencies {
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:recyclerview-v7:24.2.1'
 }
+
+apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle'
+apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle'
