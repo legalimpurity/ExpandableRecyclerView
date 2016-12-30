@@ -26,7 +26,7 @@ dependencies {
 
 Usage
 ------
-So you have multiple levels of data to display. Say you have countries then states and then districts to be shown in a sequential order. Countries will contain districts which will contain states. Therefore, you will create three classes, inheriting ItemObservable.
+So you have multiple levels of data to display. Say you have countries then states and then districts to be shown in a sequential order. Countries will contain states which will contain districts. Therefore, you will create three classes, inheriting ItemObservable.
 
 ```Android
 public void onLevel1ItemClick()
