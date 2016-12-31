@@ -7,20 +7,11 @@ Here is a demo on how it works.
 
 Setup
 ------
-Add this to your root build.gradle for all your projects
-```Android
-allprojects {
-  repositories {
-        ...
-        maven { url "https://jitpack.io" }
-  }
-}
-```
-Then add this to your build.gradle dependencies for the project where you want to use it
+Add this to your build.gradle dependencies for the project where you want to use it
 ```Android
 dependencies {
   ...
-  compile 'com.legalimpurity.expandablerecyclerview:expandable-recyclerview:1.0'
+  compile 'com.legalimpurity.expandablerecyclerview:expandablerecyclerview:1.0.2'
 }
 ```
 
