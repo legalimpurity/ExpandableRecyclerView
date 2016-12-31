@@ -2,18 +2,18 @@ apply plugin: 'com.android.library'
 
 ext {
     bintrayRepo = 'maven'
-    bintrayName = 'expandable-recyclerview'
+    bintrayName = 'expandablerecyclerview'
 
     publishedGroupId = 'com.legalimpurity.expandablerecyclerview'
-    libraryName = 'expandable-recyclerview'
-    artifact = 'expandable-recyclerview'
+    libraryName = 'expandablerecyclerview'
+    artifact = 'expandablerecyclerview'
 
     libraryDescription = 'It is a Recycler View which expands to show more Recycler views inside it.'
 
     siteUrl = 'https://github.com/legalimpurity/ExpandableRecyclerView'
     gitUrl = 'https://github.com/legalimpurity/ExpandableRecyclerView'
 
-    libraryVersion = '1.0'
+    libraryVersion = '1.0.2'
 
     developerId = 'legalimpurity'
     developerName = 'Rajat Khanna'
@@ -32,7 +32,7 @@ android {
         minSdkVersion 15
         targetSdkVersion 24
         versionCode 1
-        versionName "1.0"
+        versionName "1.0.1"
 
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
 
