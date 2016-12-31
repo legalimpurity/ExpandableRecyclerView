@@ -7,11 +7,21 @@ Here is a demo on how it works.
 
 Setup
 ------
-Add this to your build.gradle dependencies for the project where you want to use it
+Add this to your build.gradle dependencies for the project where you want to use it.
 ```Android
 dependencies {
   ...
   compile 'com.legalimpurity.expandablerecyclerview:expandablerecyclerview:1.0.2'
+}
+```
+
+Also, add the following to your build.gradle file for the project to enable data binding.
+```Android
+android {
+  ...
+  dataBinding {
+        enabled = true
+    }
 }
 ```
 
